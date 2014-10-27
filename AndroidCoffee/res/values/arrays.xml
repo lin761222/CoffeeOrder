@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<string-array name="coffeeList">
-	    <item>Latte</item>
-	    <item>Mocha</item>
-	    <item>Cappuccino</item>
-	    <item>Macchiato</item>
-    </string-array>
-</resources>

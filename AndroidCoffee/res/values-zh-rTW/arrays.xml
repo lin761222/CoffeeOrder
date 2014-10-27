@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<string-array name="coffeeList">
-	    <item>拿鐵</item>
-	    <item>摩卡</item>
-	    <item>卡布奇諾</item>
-	    <item>焦糖馬奇朵</item>
-    </string-array>
-</resources>

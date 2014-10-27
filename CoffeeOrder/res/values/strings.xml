@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">咖啡訂餐系統</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="index_text">在衣索匹亞，有一個古老的咖啡儀式，圍坐成一圈的人們，會依序斟上三杯咖啡： 第一杯稱為abol；第二杯稱為tonah；最後一杯則是beraka，即「祝福」之意。 我們希望每位到Beraka的消費者不只享受到咖啡的香醇也能得到無限的祝福。\n相信很多人希望一早起床是被滿屋子咖啡的香味所喚醒，然後喝上一杯來讓頭腦啟動一天的運作。Beraka深知咖啡美味的關鍵來自於咖啡生豆的新鮮度及烘焙的經驗，所以我們精選南美洲和非洲的咖啡豆，並由自家經驗老道的烘焙師進行烘焙。我們除了有香醇的咖啡外也提供一個讓城市裏忙碌的人們一個偷得浮生半日閒的空間，你可以在這裏放空或沉澱一下心情。</string>
+    <string name="kind_1">經典綜合豆</string>
+    <string name="kind_11">精緻溫和的口感帶有一股撲鼻而來的濃烈香氣，堅持小量烘培，堅持最好品質適合喜歡黑咖啡的老饕們。</string>
+    <string name="title_activity_about_me">首頁</string>
+    <string name="title_activity_kind_list">產品種類</string>
+    <string name="title_activity_order">訂購產品</string>
+    <string name="title_activity_shop_map">商店資訊</string>
+
+</resources>
