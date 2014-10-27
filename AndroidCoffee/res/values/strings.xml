@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Coffee</string>
+    <string name="order_no">No:</string>
+    <string name="item_no">No:</string>
+    <string name="item_name">Name:</string>
+    <string name="item_price">Price:</string>
+    <string name="item_image">Image:</string>
+    <string name="append_submit">Submit</string>
+    <string name="none_rows_warnning">Non Data !</string>
+    <string name="latte">Latte</string>
+    <string name="mocha">Mocha</string>
+    <string name="cappuccino">Cappuccino</string>
+    <string name="macchiato">Macchiato</string>
+</resources>

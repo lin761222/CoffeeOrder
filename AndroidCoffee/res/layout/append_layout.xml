@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/main"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView android:id="@+id/emptyView"		  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/item_name"
+	    android:textSize="20dip"
+    />
+	<Spinner android:id="@+id/Spinner01" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+	</Spinner>
+	<TextView android:text="@string/item_price" 
+		android:id="@+id/TextView01" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:textSize="20dip"
+		>
+	</TextView>
+	<EditText android:text="0" 
+		android:id="@+id/EditText01" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:numeric="integer">
+	</EditText>
+	<TextView android:text="@string/item_image" 
+		android:id="@+id/TextView02" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:textSize="20dip"
+		>
+	</TextView>
+	<ImageView android:id="@+id/ImageView01" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:src="@drawable/empty">
+	</ImageView>
+	<Button android:text="@string/append_submit" 
+		android:id="@+id/Button01" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:textSize="20dip"
+		>
+	</Button>
+</LinearLayout>

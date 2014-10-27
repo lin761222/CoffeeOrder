@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">安卓咖啡</string>
+    <string name="order_no">編號:</string>
+    <string name="item_no">序號:</string>
+    <string name="item_name">商品名稱:</string>
+    <string name="item_price">商品價格:</string>
+    <string name="item_image">商品圖片:</string>
+    <string name="append_submit">確定新增</string>
+    <string name="none_rows_warnning">資料庫無資料 !</string>
+    <string name="latte">拿鐵</string>
+    <string name="mocha">摩卡</string>
+    <string name="cappuccino">卡布奇諾</string>
+    <string name="macchiato">焦糖馬奇朵</string>
+</resources>
