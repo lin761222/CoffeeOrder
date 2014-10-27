@@ -22,7 +22,8 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25sp"
+        android:textSize="25dp"
+        android:textStyle="bold"
         android:textColor="#FFFFFF"
         android:text="簡介" />
 
@@ -42,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/index_text"
                 android:textColor="#FFFFFF"
-                android:textSize="18sp" />
+                android:textSize="20dp" />
 
         </LinearLayout>
     </ScrollView>

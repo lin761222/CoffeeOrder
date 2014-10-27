@@ -26,11 +26,23 @@
         </activity>
         <activity
             android:name="com.dreamlin.activity.Order"
-            android:label="@string/title_activity_order" >
+            android:label="請選擇數量後按'返回產品清單'" >
         </activity>
         <activity
             android:name="com.dreamlin.activity.ShopMap"
             android:label="@string/title_activity_shop_map" >
+        </activity>
+        <activity
+            android:name="com.dreamlin.activity.Result"
+            android:label="確認產品後請按'寄給商家'" >
+        </activity>
+        <activity
+            android:name="com.dreamlin.activity.DrinkDetail"
+            android:label="請選擇數量後按'返回產品清單'" >
+        </activity>
+        <activity
+            android:name="com.dreamlin.adapter.ResultAdapter"
+            android:label="@string/title_activity_result_adapter" >
         </activity>
     </application>
 
