@@ -1,6 +1,9 @@
 package com.dreamlin.activity;
 
+import java.util.ArrayList;
+
 import com.dreamlin.adapter.DrinkAdapter;
+import com.dreamlin.db.DBHelper;
 import com.dreamlin.model.DrinkInfo;
 import com.example.coffeeorder.R;
 import com.example.coffeeorder.R.id;
@@ -18,9 +21,9 @@ import android.widget.Button;
 import android.widget.ListView;
 
 public class Order extends Activity {
-	public static DrinkInfo drinkInfos[] = new DrinkInfo[3];
+	public static DrinkInfo drinkInfos[] = new DrinkInfo[6];
 	ListView lv;
-	public static DrinkInfo drinkInfos2[] = new DrinkInfo[3];
+	public static DrinkInfo drinkInfos2[] = new DrinkInfo[6];
 	DrinkAdapter DA;
 	public static int itemPosition = 0;
 	public static int type = 0;
@@ -31,19 +34,39 @@ public class Order extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.order);
 
-		DrinkInfo DI = new DrinkInfo("©@°Ø", "100");
-		drinkInfos[0] = DI;
-		DI = new DrinkInfo("¥¤¯ù", "120");
-		drinkInfos[1] = DI;
-		DI = new DrinkInfo("¬õ¯ù", "150");
-		drinkInfos[2] = DI;
+//		DBHelper dbHelper = new DBHelper(this);
+//
+//		ArrayList<DrinkInfo> DI = dbHelper.query();
+//		drinkInfos = new DrinkInfo[DI.size()];
+//		for (int i = 0; i < DI.size(); i++) {
+//			drinkInfos[i] = DI.get(i);
+//		}
+		 DrinkInfo DI = new DrinkInfo("¿@ÁY©@°Ø", "50");
+		 drinkInfos[0] = DI;
+		 DI = new DrinkInfo("¶Â©@°Ø", "40");
+		 drinkInfos[1] = DI;
+		 DI = new DrinkInfo("¥¤­»©@°Ø", "50");
+		 drinkInfos[2] = DI;
+		 DI = new DrinkInfo("¥d¥¬©_¿Õ", "60");
+		 drinkInfos[3] = DI;
+		 DI = new DrinkInfo("®³ÅK", "60");
+		 drinkInfos[4] = DI;
+		 DI = new DrinkInfo("­»¯ó®³ÅK", "70");
+		 drinkInfos[5] = DI;
 
-		DrinkInfo DI2 = new DrinkInfo("hh©@°Ø", "100");
+		DrinkInfo DI2 = new DrinkInfo("¦B¬õ¯ù", "30");
 		drinkInfos2[0] = DI2;
-		DI2 = new DrinkInfo("hh¥¤¯ù", "120");
+		DI2 = new DrinkInfo("¦B¥¤¯ù", "35");
 		drinkInfos2[1] = DI2;
-		DI2 = new DrinkInfo("hh¬õ¯ù", "150");
+		DI2 = new DrinkInfo("µâ´¶ªá¯ù", "30");
 		drinkInfos2[2] = DI2;
+		DI2 = new DrinkInfo("©Ù¯ù¤û¥¤", "35");
+		drinkInfos2[3] = DI2;
+		DI2 = new DrinkInfo("¬h¾í¥Ä", "30");
+		drinkInfos2[4] = DI2;
+		DI2 = new DrinkInfo("¿üÄõ¥¤¯ù", "35");
+		drinkInfos2[5] = DI2;
+		
 
 		DA = new DrinkAdapter(this, drinkInfos);
 

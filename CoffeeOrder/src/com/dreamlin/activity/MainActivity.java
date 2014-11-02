@@ -1,5 +1,6 @@
 package com.dreamlin.activity;
 
+import com.dreamlin.db.DBHelper;
 import com.example.coffeeorder.R;
 
 import android.app.TabActivity;
@@ -20,6 +21,11 @@ public class MainActivity extends TabActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
+//		DBHelper dbHelper = new DBHelper(MainActivity.this);
+//		dbHelper.insert(0, "奶茶", "120");
+//		dbHelper.insert(1, "咖啡", "100");
+//		dbHelper.insert(2, "紅茶", "150");
+		
 		addNewTab(this, AboutMe.class, "關於我們");
 		addNewTab(this, KindList.class, "產品種類");
 		addNewTab(this, Order.class, "產品明細");
@@ -27,14 +33,15 @@ public class MainActivity extends TabActivity {
 
 		getTabHost().setCurrentTab(0);
 		getTabHost().requestFocus();
+
 	}
 
-//	@Override
-//	public boolean onCreateOptionsMenu(Menu menu) {
-//		// Inflate the menu; this adds items to the action bar if it is present.
-//		getMenuInflater().inflate(R.menu.main, menu);
-//		return true;
-//	}
+	// @Override
+	// public boolean onCreateOptionsMenu(Menu menu) {
+	// // Inflate the menu; this adds items to the action bar if it is present.
+	// getMenuInflater().inflate(R.menu.main, menu);
+	// return true;
+	// }
 
 	public void addNewTab(Context context, Class<?> cls, String tabName) {
 		Resources res = getResources();

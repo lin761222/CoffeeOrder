@@ -57,14 +57,14 @@ public class Result extends Activity {
 		finish();
 	}
 
-	public void mail(View v) {
-		Intent it = new Intent(Intent.ACTION_VIEW);
-		it.setData(Uri.parse("mailto:alex.chen1222@gmail.com"));
-		// 主旨
-		it.putExtra(Intent.EXTRA_SUBJECT, "請輸入主旨");
-		// 內文
-		it.putExtra(Intent.EXTRA_TEXT, "請輸入內文");
-		startActivity(it);
-	}
+//	public void mail(View v) {
+//		Intent it = new Intent(Intent.ACTION_VIEW);
+//		it.setData(Uri.parse("mailto:alex.chen1222@gmail.com"));
+//		// 主旨
+//		it.putExtra(Intent.EXTRA_SUBJECT, "請輸入主旨");
+//		// 內文
+//		it.putExtra(Intent.EXTRA_TEXT, "請輸入內文");
+//		startActivity(it);
+//	}
 
 }
