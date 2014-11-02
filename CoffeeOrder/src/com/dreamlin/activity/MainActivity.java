@@ -1,7 +1,7 @@
 package com.dreamlin.activity;
 
 import com.dreamlin.db.DBHelper;
-import com.example.coffeeorder.R;
+import com.dreamlin.coffeeorder.R;
 
 import android.app.TabActivity;
 import android.content.Context;

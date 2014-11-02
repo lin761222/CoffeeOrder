@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import com.dreamlin.adapter.ResultAdapter;
 import com.dreamlin.model.DrinkInfo;
-import com.example.coffeeorder.R;
+import com.dreamlin.coffeeorder.R;
 
 public class Result extends Activity {
 	ListView listView;

@@ -1,6 +1,6 @@
 package com.dreamlin.activity;
 
-import com.example.coffeeorder.R;
+import com.dreamlin.coffeeorder.R;
 
 import android.app.Activity;
 import android.content.res.Resources;

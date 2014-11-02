@@ -8,7 +8,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.dreamlin.model.DrinkInfo;
-import com.example.coffeeorder.R;
+import com.dreamlin.coffeeorder.R;
 
 public class ResultAdapter extends BaseAdapter {
 	Context context;

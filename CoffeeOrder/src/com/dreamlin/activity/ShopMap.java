@@ -1,9 +1,9 @@
 package com.dreamlin.activity;
 
-import com.example.coffeeorder.R;
-import com.example.coffeeorder.R.id;
-import com.example.coffeeorder.R.layout;
-import com.example.coffeeorder.R.menu;
+import com.dreamlin.coffeeorder.R;
+import com.dreamlin.coffeeorder.R.id;
+import com.dreamlin.coffeeorder.R.layout;
+import com.dreamlin.coffeeorder.R.menu;
 
 import android.support.v7.app.ActionBarActivity;
 import android.app.Activity;

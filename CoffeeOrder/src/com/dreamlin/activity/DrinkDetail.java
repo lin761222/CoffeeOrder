@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.dreamlin.model.DrinkInfo;
-import com.example.coffeeorder.R;
+import com.dreamlin.coffeeorder.R;
 
 public class DrinkDetail extends Activity {
 	DrinkInfo drinkInfo;

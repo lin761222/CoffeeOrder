@@ -14,7 +14,7 @@ import com.dreamlin.activity.DrinkDetail;
 import com.dreamlin.activity.MainActivity;
 import com.dreamlin.activity.Order;
 import com.dreamlin.model.DrinkInfo;
-import com.example.coffeeorder.R;
+import com.dreamlin.coffeeorder.R;
 
 public class DrinkAdapter extends BaseAdapter {
 	Context context;
