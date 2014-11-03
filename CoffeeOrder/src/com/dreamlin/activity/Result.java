@@ -26,7 +26,7 @@ public class Result extends Activity {
 		listView = (ListView) findViewById(R.id.listView1);
 		sum = (TextView) findViewById(R.id.sum);
 		total = (TextView) findViewById(R.id.total);
-		ArrayList<DrinkInfo> drinkInfos = new ArrayList<>();
+		ArrayList<DrinkInfo> drinkInfos = new ArrayList<DrinkInfo>();
 
 		for (DrinkInfo drinkInfo : Order.drinkInfos) {
 			if (drinkInfo.getNumber() > 0) {

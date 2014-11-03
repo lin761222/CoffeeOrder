@@ -4,10 +4,12 @@ public class DrinkInfo {
 	String name;
 	String price;
 	int number;
-
-	public DrinkInfo(String name, String price) {
+	int type;
+	
+	public DrinkInfo(String name, String price, int type) {
 		this.price = price;
 		this.name = name;
+		this.type = type;
 	}
 
 	public String getName() {
@@ -34,4 +36,13 @@ public class DrinkInfo {
 		this.number = number;
 	}
 
+	public int getType() {
+		return type;
+	}
+
+	public void setType(int type) {
+		this.type = type;
+	}
+
+	
 }

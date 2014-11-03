@@ -30,7 +30,9 @@ public class DrinkDetail extends Activity {
 		txv1.setText(drinkInfo.getName());
 		txv2.setText(drinkInfo.getPrice());
 		txv4.setText(drinkInfo.getNumber() + "");
-
+		txv5.setText((drinkInfo.getNumber() * Integer.parseInt(drinkInfo
+				.getPrice())) + "");
+		
 		numberConter = drinkInfo.getNumber();
 
 	}
